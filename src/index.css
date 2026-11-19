@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang HK", "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 預覽內嵌 SVG：保持比例、唔會超出格仔 */
+.svgbox svg {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
